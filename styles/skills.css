@@ -1,0 +1,10 @@
+.skills{
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}

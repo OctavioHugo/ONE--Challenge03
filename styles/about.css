@@ -1,0 +1,17 @@
+.about{
+    background-color: var(--background-color2);
+    padding: 1rem;
+}
+
+.about__title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about__paragraph{
+    padding-top: 1rem;
+}
+
+.about__img{
+    padding-top: 1rem;
+}

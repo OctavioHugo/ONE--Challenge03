@@ -1,0 +1,12 @@
+/* Header */
+:root{
+--fuente-general: 'Raleway';
+--text-color: #464646;
+--background-color1: #E5E5E5;
+--background-color2: #EAF2FD;
+}
+
+body{
+    font-family: var(--fuente-general);
+    color: var(--text-color);
+}
