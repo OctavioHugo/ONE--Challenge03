@@ -1,0 +1,16 @@
+.skills__box{
+    display: flex;
+    width: calc(50% - .5rem); 
+    height: 118px;
+    max-width: 224px;
+    background: #FFFFFF;
+    margin: 2rem 0 0;
+}
+
+.skills__img{
+    padding: 2.375rem 0 .75rem 1rem;
+}
+
+.skills__name{
+    padding-left: 1rem;
+}
