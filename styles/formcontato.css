@@ -1,0 +1,51 @@
+.formcontato__contacto{
+    padding: 2rem;
+    background: var(--background-color2);
+}
+
+.formcontato__img{
+    display: none;
+}
+
+.formcontato__title{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: .5rem;
+    display: block;
+    text-align: left;
+}
+
+.formcontato__input{
+    margin-top: 2rem;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: .25rem;
+}
+
+.formcontato__textarea{
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: .25rem;
+}
+
+.formcontato__botao{
+    margin: 2rem 0 0 0;
+    padding: .75rem 1rem;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+}
+
+::placeholder{
+    font-family: var(--fuente-general);
+    padding-left: .75rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+textarea::placeholder{
+    padding-top: 1rem;
+}

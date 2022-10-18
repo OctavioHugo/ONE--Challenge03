@@ -9,4 +9,5 @@
 body{
     font-family: var(--fuente-general);
     color: var(--text-color);
+    line-height: 18.78px;
 }
