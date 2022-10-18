@@ -38,5 +38,7 @@
 }
 
 .academic__courses__item__subtitle{
+    font-size: 14px;
+    font-weight: 500;
     padding-top: .5rem;
 }
