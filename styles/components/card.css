@@ -1,4 +1,4 @@
-.skills__box{
+.skills__box, .hobbies__box{
     display: flex;
     width: calc(50% - .5rem); 
     height: 118px;
@@ -7,10 +7,10 @@
     margin: 2rem 0 0;
 }
 
-.skills__img{
+.skills__img, .hobbies__img{
     padding: 2.375rem 0 .75rem 1rem;
 }
 
-.skills__name{
+.skills__name, .hobbies__name{
     padding-left: 1rem;
 }
