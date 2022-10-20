@@ -17,9 +17,6 @@
 .academic__courses__box{
     padding-top: 1rem;
     width: 100%;
-/*     max-width: 224px; */
-    /* display: flex;
-    flex-wrap: wrap */;
 }
 
 .academic__courses__list{
@@ -41,4 +38,23 @@
     font-size: 14px;
     font-weight: 500;
     padding-top: .5rem;
+}
+
+@media (min-width: 768px) {
+
+    .academic__courses{
+        gap: 1rem;
+    }
+
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .academic__courses__box{
+        width: calc(33.33% - .67rem);
+    }
+
+
+
 }
