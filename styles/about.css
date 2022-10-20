@@ -15,3 +15,13 @@
 .about__img{
     padding-top: 1rem;
 }
+
+@media (min-width: 1024px){
+    .about{
+        padding: 4rem 10.55%;
+    }
+
+    .about__container{
+        width: 69.9%;
+    }
+}
