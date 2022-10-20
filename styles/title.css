@@ -54,3 +54,20 @@
         padding: 0 2rem;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .title__div{
+        padding: 0 10.55% 2rem 10.55%;
+    }
+
+    .title__profile{
+        width: 25.5555%;
+    }
+
+    .title__container{
+        padding: 0;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+}

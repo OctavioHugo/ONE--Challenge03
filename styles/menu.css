@@ -36,7 +36,7 @@ a{
     }   
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
 
     .menu{
         padding: 2.1562rem 10.55% 4.1562rem 10.55%;
@@ -44,7 +44,7 @@ a{
 
     .menu__list{
         display: flex;
-        gap: 2rem;
+        gap: 1.6rem;
     }
 
     .menu__list__item{
