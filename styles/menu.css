@@ -28,3 +28,9 @@ a{
     color: #464646;
     text-decoration: none;
 }
+
+@media (min-width: 768px) {
+    .menu__list__item__contato{
+        font-weight: 700;
+    }   
+}

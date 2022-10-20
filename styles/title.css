@@ -1,6 +1,7 @@
 .title__div{
     padding: 1rem 1rem 0 1rem;
     background-color: var(--background-color1);
+    padding-bottom: 2rem;
 }
 
 .title__profile{
@@ -30,4 +31,26 @@
     font-size: 14px;
     gap: 0.52875rem;
     font-weight: 600;
+}
+
+@media (min-width: 768px){
+
+    .title__div{
+        display: flex;
+
+    }
+
+    .title__profile{
+        display: flex;
+        width: 20%;
+        height: fit-content;
+        order: 1;
+    }
+
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        width: calc(79% - 2rem);
+        padding: 0 2rem;
+    }
 }
