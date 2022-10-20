@@ -1,6 +1,7 @@
 .hobbies{
     background: var(--background-color1);
     width: 100%;
+    padding-top: 1rem;
 }
 
 .hobbies__title{
@@ -8,7 +9,6 @@
     font-size: 22px;
     font-weight: 700;
     display: block;
-    padding-top: 1rem;
 }
 
 .hobbies__line{
@@ -17,4 +17,11 @@
     gap: 1rem;
     padding: 1rem;
     justify-content: space-between;
+}
+
+@media (min-width: 1024px){
+    
+    .hobbies{
+        padding: 2rem 10.55% 5.5rem 10.55%;
+    }
 }
