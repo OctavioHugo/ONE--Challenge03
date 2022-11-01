@@ -54,7 +54,10 @@
     .academic__courses__box{
         width: calc(33.33% - .67rem);
     }
+}
 
-
-
+@media (min-width: 1024px){
+    .academic{
+        padding: 5.125rem 10.55%;
+    }
 }

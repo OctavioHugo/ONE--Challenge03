@@ -16,6 +16,7 @@
 
 .experience__img{
     width: 100%;
+    max-width: 752px;
     padding-top: 1rem;
 }
 
@@ -51,4 +52,43 @@
     background: #2A7AE4;
     color: #FFFFFF;
     border: none;
+}
+
+@media (min-width: 1024px){
+
+    .experience{
+        padding: 2rem 10.55%;
+        text-align: center;
+    }
+
+    .experiencie__box{
+        padding: 2rem 0;
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .experience__img{
+        padding-top: 0;
+        width: 52.22%;
+    }
+
+}
+
+@media (min-width: 1440px){
+
+    .experience{
+        padding: 2rem 10.55%;
+    }
+
+    .experiencie__box{
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .experience__img{
+        padding-top: 0;
+    }
 }
