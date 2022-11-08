@@ -24,9 +24,52 @@
     margin-top: 2rem;
     height: 3.43rem;
     border: none;
+    outline: none;
     border-bottom: 1px solid #C8C8C8;
     border-radius: .25rem;
 }
+
+.formcontato__textarea{
+    outline: none;
+}
+
+.formcontato__input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.formcontato__textarea::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input-label {
+    position: absolute;
+    top: 3.5rem;
+    left: 0.75rem;
+    transition: all 0.25s;
+}
+
+.formcontato__validation:not(:placeholder-shown) + .input-label,
+.formcontato__validation:focus + .input-label {
+  font-size: 0.75rem;
+  top: 2rem;
+  transition: all 0.25s;
+  color: var(--label-focus-color);
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color: var(--warning-color);
+  }
 
 .formcontato__textarea{
     margin-top: 2rem;
@@ -47,12 +90,39 @@
     border: none;
 }
 
-::placeholder{
-    font-family: var(--fuente-general);
-    font-weight: 400;
-    font-size: 14px;
-}
 
+/* Clases para validacion*/
+
+.input-container {
+    font-weight: var(--font-weigth-input);
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+
+  .input-container--invalid .formcontato__validation {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+  }
+
+  .input-container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+
+.input-message-error{
+    display: none;
+}
 
 @media (min-width: 1024px){
 
@@ -64,6 +134,8 @@
 
     .formcontato__img{
         display: flex;
+        height: 100%;
+        width: 100%;
     }
 
 
