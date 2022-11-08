@@ -14,6 +14,7 @@
 .menu__header{
     display: flex;
     gap: .5rem;
+    align-items: center;
 }
 
 .menu__list__item{
